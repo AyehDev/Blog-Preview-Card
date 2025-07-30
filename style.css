@@ -79,6 +79,7 @@ body {
   font-weight: 800;
   letter-spacing: 0px;
   line-height: 150%;
+  color: #111111 !important;
 }
 
 .blog-content h2:hover {
@@ -116,4 +117,33 @@ body {
   font-weight: 800;
   letter-spacing: 0px;
   line-height: 150%;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 1.3em;
+  }
+
+  .blog-container {
+    width: 100%;
+    height: auto;
+    padding: 1em;
+  }
+
+  .blog-image {
+    height: 15em;
+  }
+
+  .blog-content h2 {
+    font-size: 2em;
+  }
+
+  .blog-content p {
+    font-size: 1.2em;
+  }
+
+  .blog-author img {
+    width: 2em;
+    height: 2em;
+  }
 }
