@@ -23,7 +23,7 @@ body {
   background-color: white;
   box-shadow: 8px 8px #111111;
   border: 1px solid #111111;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 24px;
   display: flex;
   justify-content: center;
@@ -119,9 +119,10 @@ body {
   line-height: 150%;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   body {
-    padding: 1.3em;
+    padding: 1.3em; 
+    margin: 0;
   }
 
   .blog-container {
@@ -145,5 +146,11 @@ body {
   .blog-author img {
     width: 2em;
     height: 2em;
+  }
+}
+
+@media(prefers-reduced-motion: reduce) {
+  .blog-content h2:hover {
+    transition: none;
   }
 }
