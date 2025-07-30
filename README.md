@@ -40,4 +40,4 @@ Still working on it responsiveness for different screen sizes.
 
 ## Author
 
-- Website - [Emmanuel Ayeh]
+- Emmanuel Ayeh
